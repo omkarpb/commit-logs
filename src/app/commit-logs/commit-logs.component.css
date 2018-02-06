@@ -1,0 +1,8 @@
+.commit-box {
+    border: 1px solid rgb(5, 5, 5);
+    text-align: left;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+}

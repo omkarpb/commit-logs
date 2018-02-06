@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { CommitLogsComponent } from './commit-logs/commit-logs.component';
-
+import { CommitLogsService } from './commit-logs.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +16,7 @@ import { CommitLogsComponent } from './commit-logs/commit-logs.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [CommitLogsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
